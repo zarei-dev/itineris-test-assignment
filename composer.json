@@ -1,0 +1,26 @@
+{
+	"name": "zarei-dev/wp-starter-theme",
+	"type": "wordpress-theme",
+	"license": "MIT",
+	"description": "WordPress starter theme with tailwind and composer",
+	"authors": [
+		{
+			"name": "Mohammad Zarei",
+			"email": "mohammad.zarei1380@gmail.com",
+			"homepage": "https://github.com/zarei-dev"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"WPStarterTheme\\App\\": "app/"
+		}
+	},
+	"require": {
+		"php": "^7.4|^8.0"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true
+	}
+}
