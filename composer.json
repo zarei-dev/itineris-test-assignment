@@ -1,8 +1,8 @@
 {
-	"name": "zarei-dev/wp-starter-theme",
+	"name": "zarei-dev/itineris-test-assignment",
 	"type": "wordpress-theme",
 	"license": "MIT",
-	"description": "WordPress starter theme with tailwind and composer",
+	"description": "WordPress theme with tailwind and composer",
 	"authors": [
 		{
 			"name": "Mohammad Zarei",
@@ -12,7 +12,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"WPStarterTheme\\App\\": "app/"
+			"ITINERIS_ASSIGNMENT\\App\\": "app/"
 		}
 	},
 	"require": {

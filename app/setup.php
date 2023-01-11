@@ -1,5 +1,5 @@
 <?php
-namespace WPStarterTheme\App;
+namespace ITINERIS_ASSIGNMENT\App;
 
 /**
  * The file that defines the core theme class

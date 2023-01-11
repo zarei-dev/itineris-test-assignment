@@ -1,8 +1,8 @@
 {
-	"name": "wp-starter-theme",
+	"name": "itineris-test-assignment",
 	"private": true,
 	"version": "1.0.0",
-	"description": "A starter theme for WordPress with TailwindCSS and Webpack",
+	"description": "A WP theme with TailwindCSS and Webpack",
 	"author": {
 		"name": "Mohammad Zarei",
 		"email": "mohammad.zarei1380@gmail.com"
