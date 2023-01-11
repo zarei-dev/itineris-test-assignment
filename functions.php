@@ -14,16 +14,3 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 $Setup = new \ITINERIS_ASSIGNMENT\App\Setup();
 
 add_theme_support('post-thumbnails');
-
-add_action( 'init', function() {
-    // Register Course Post Types
-	register_extended_post_type( 'course', [
-		'show_in_feed' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
-	], [
-		'singular' => 'Course',
-		'plural'   => 'Courses',
-		'slug'     => 'courses',
-	] );
-
-} );
