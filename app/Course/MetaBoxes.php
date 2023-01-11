@@ -1,6 +1,12 @@
 <?php
 namespace ITINERIS_ASSIGNMENT\App\Course;
 
+/**
+ * MetaBoxes
+ * This Class is responsible for registering the meta boxes for the course post type.
+ * @package ITINERIS_ASSIGNMENT\App\Course
+ * @since 0.0.1
+ */
 class MetaBoxes {
     public function __construct() {
         add_action( 'add_meta_boxes', array( $this, 'add_meta_boxes' ) );

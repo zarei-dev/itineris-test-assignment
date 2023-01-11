@@ -1,11 +1,18 @@
 <?php
 namespace ITINERIS_ASSIGNMENT\App\Course;
 
+/**
+ * Course
+ * This Class is responsible for registering the course post type, taxonomies and meta boxes.
+ * @package ITINERIS_ASSIGNMENT\App\Course
+ * @since 0.0.1
+ */
 class Course {
     public function __construct() {
         add_action( 'init', array( $this, 'register_post_type' ) );
         add_action( 'init', array( $this, 'register_taxonomies' ) );
 
+        // This will register the meta boxes
         $MetaBoxes = new MetaBoxes();
     }
 
