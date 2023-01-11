@@ -16,7 +16,8 @@
 		}
 	},
 	"require": {
-		"php": "^7.4|^8.0"
+		"php": "^7.4|^8.0",
+		"johnbillion/extended-cpts": "^5.0"
 	},
 	"config": {
 		"optimize-autoloader": true,
