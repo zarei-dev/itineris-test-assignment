@@ -4,6 +4,8 @@ namespace ITINERIS_ASSIGNMENT\App\Course;
 class Course {
     public function __construct() {
         add_action( 'init', array( $this, 'register_post_type' ) );
+
+        $MetaBoxes = new MetaBoxes();
     }
 
     public function register_post_type() {
