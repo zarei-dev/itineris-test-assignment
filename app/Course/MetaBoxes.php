@@ -37,7 +37,7 @@ class MetaBoxes {
             </div>
             <div class="course-meta-box__field">
                 <label for="course_duration"><?php _e( 'Course Duration', 'itineris-test-assignment' ); ?></label>
-                <input type="number" id="course_duration" name="course_duration" value="<?php echo esc_attr( $course_duration ); ?>" required>
+                <input type="text" id="course_duration" name="course_duration" value="<?php echo esc_attr( $course_duration ); ?>" required>
             </div>
         </div>
         <style>
