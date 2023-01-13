@@ -78,12 +78,12 @@ class Setup {
                 $this->version
             );
 
-            // wp_enqueue_script(
-            //     'wp-starter-theme-scripts',
-            //     get_template_directory_uri() . '/dist/js/scripts.js',
-            //     array(),
-            //     $this->version
-            // );
+            wp_enqueue_script(
+                'wp-starter-theme-scripts',
+                get_template_directory_uri() . '/dist/main.js',
+                array(),
+                $this->version
+            );
         }, 10, 1);
     }
 
