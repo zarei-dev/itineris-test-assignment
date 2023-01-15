@@ -61,7 +61,7 @@ class Course {
             'show_in_feed' => true,
             'show_admin_column' => true,
             'show_in_rest' => true,
-            'meta_box' => 'radio',
+            'meta_box' => 'simple',
             'hierarchical' => true,
         ], [
             'singular' => 'Campus',
