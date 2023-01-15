@@ -7,7 +7,7 @@ namespace ITINERIS_ASSIGNMENT\App\Course;
  * @package ITINERIS_ASSIGNMENT\App\Course
  * @since 0.0.1
  */
-class Course {
+class RegisterCourse {
     public function __construct() {
         add_action( 'init', array( $this, 'register_post_type' ) );
         add_action( 'init', array( $this, 'register_taxonomies' ) );

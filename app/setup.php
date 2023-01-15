@@ -31,7 +31,7 @@ class Setup {
         $this->enqueue_theme_styles_scripts();
         $this->load_theme_textdomain();
 
-        $course = new \ITINERIS_ASSIGNMENT\App\Course\Course();
+        $course = new \ITINERIS_ASSIGNMENT\App\Course\RegisterCourse();
 
 	}
 
