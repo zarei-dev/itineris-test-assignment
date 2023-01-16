@@ -6,7 +6,7 @@ use ITINERIS_ASSIGNMENT\App\Course\Course;
     <!-- main -->
     <div class="flex flex-wrap">
         <div class="w-full lg:w-3/12 px-4 it-filters">
-
+            <?php get_template_part( 'template_parts/side_filter' ); ?>
         </div>
         <div class="w-full lg:w-9/12 px-4">
             <!-- Courses Grid -->

@@ -15,7 +15,7 @@ if ( accordions.length > 0 ) {
         });
         
     });
-ß}
+}
 
 const showEvents = ['mouseenter', 'focus'];
 const hideEvents = ['mouseleave', 'blur'];
