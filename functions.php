@@ -14,3 +14,8 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 $Setup = new \ITINERIS_ASSIGNMENT\App\Setup();
 
 add_theme_support('post-thumbnails');
+
+function create_block_todo_list_block_init() {
+	register_block_type( __DIR__ . '/build/blocks/quote-with-image');
+}
+add_action( 'init', 'create_block_todo_list_block_init' );
