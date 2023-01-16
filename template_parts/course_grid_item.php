@@ -1,5 +1,10 @@
 <?php
 use ITINERIS_ASSIGNMENT\App\Course\Course;
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 $course = new Course( get_the_ID() );
 ?>
 <div class="w-full md:w-6/12 lg:w-4/12 px-4">

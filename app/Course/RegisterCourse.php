@@ -1,6 +1,9 @@
 <?php
 namespace ITINERIS_ASSIGNMENT\App\Course;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * Course
  * This Class is responsible for registering the course post type, taxonomies and meta boxes.

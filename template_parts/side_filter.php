@@ -1,3 +1,9 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+?>
 <form class="filter-courses" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
     <input type="hidden" name="post_type" value="course">
     <div class="mb-4 accordion is-open">

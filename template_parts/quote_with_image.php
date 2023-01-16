@@ -1,3 +1,16 @@
+<?php
+/**
+ * Template part for displaying quote with image
+ * This file is no longer needed, because the block is now registered in functions.php
+ *
+ * @package ITINERIS_TEST_ASSIGNMENT
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+?>
 <section class="w-full h-full bg-right bg-no-repeat mb-16" style="background-color: rgba(4, 196, 141, 1); background-size: 50% 100%; background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg');">
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap">

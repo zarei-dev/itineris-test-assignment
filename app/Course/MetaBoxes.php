@@ -1,6 +1,9 @@
 <?php
 namespace ITINERIS_ASSIGNMENT\App\Course;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * MetaBoxes
  * This Class is responsible for registering the meta boxes for the course post type.

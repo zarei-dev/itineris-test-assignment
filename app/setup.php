@@ -1,6 +1,9 @@
 <?php
 namespace ITINERIS_ASSIGNMENT\App;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * The file that defines the core theme class
  *

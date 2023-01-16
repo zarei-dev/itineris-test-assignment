@@ -1,6 +1,9 @@
 <?php
 namespace ITINERIS_ASSIGNMENT\App\Course;
 
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * Course
  * This Class can be used to get the course data.
