@@ -1,0 +1,76 @@
+.it-filters {
+    .accordion {
+        .accordion-title {
+            background-color: #F3EFED;
+            color: #252B39;
+        }
+        .accordion-data {
+            display: none;
+            background-color: #FAF8F8;
+        }
+        &.is-open {
+            .accordion-data {
+                display: block;
+            }
+        }
+    }
+}
+
+.button-tooltip {
+    background-color: #252B39;
+}
+
+.tooltip {
+    background: #252B39;
+    color: white;
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity .3s;
+
+    &.show-tooltip {
+        opacity: 1;
+    }
+}
+
+  .tooltip[data-show] {
+    display: block;
+}
+
+.tooltip-arrow,
+.tooltip-arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: inherit;
+}
+
+.tooltip-arrow {
+    visibility: hidden;
+}
+
+.tooltip-arrow::before {
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+}
+
+.tooltip[data-popper-placement^='top'] > .tooltip-arrow {
+    bottom: -4px;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+
+.tooltip[data-popper-placement^='bottom'] > .tooltip-arrow {
+    top: -4px;
+}
+
+.tooltip[data-popper-placement^='left'] > .tooltip-arrow {
+    right: -4px;
+}
+
+.tooltip[data-popper-placement^='right'] > .tooltip-arrow {
+    left: -4px;
+}
