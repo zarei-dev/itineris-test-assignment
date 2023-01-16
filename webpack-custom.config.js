@@ -38,7 +38,7 @@ module.exports = {
 		],
 	},
 	devServer: {
-		static: 'dist',
+		static: './dist',
 		watchContentBase: true,
 	},
 };

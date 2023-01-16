@@ -23,7 +23,8 @@
 		"tailwindcss": "^3.2.4"
 	},
 	"scripts": {
-		"build": "wp-scripts build",
+		"build": "wp-scripts build && npm run build:custom",
+		"build:custom": "webpack --config webpack-custom.config.js",
 		"check-licenses": "wp-scripts check-licenses",
 		"format": "wp-scripts format",
 		"lint:css": "wp-scripts lint-style",
