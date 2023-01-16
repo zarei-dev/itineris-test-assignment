@@ -82,7 +82,8 @@ class Setup {
                 'wp-starter-theme-scripts',
                 get_template_directory_uri() . '/dist/main.js',
                 array(),
-                $this->version
+                $this->version,
+                true
             );
         }, 10, 1);
     }
