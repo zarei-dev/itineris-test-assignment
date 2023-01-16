@@ -1,7 +1,3 @@
-<?php
-use ITINERIS_ASSIGNMENT\App\Course\Course;
-?>
-
 <div class="container mx-auto px-4" id="course-filter-section">
     <!-- main -->
     <div class="flex flex-wrap">
