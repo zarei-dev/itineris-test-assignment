@@ -28,7 +28,7 @@ class Setup {
 	 */
 	public function __construct() {
 
-		$this->version 		= defined( 'WP_STARTER_THEME_VERSION' ) ? WP_STARTER_THEME_VERSION : '0.0.1';
+		$this->version 		= defined( 'WP_STARTER_THEME_VERSION' ) ? WP_STARTER_THEME_VERSION : '0.0.2';
 		$this->theme_name 	= defined( 'WP_STARTER_THEME_NAME' ) ? WP_STARTER_THEME_NAME : '0.0.1';
         
         $this->enqueue_theme_styles_scripts();

@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define('WP_STARTER_THEME_VERSION', '0.0.1');
+define('WP_STARTER_THEME_VERSION', '0.0.2');
 define('WP_STARTER_THEME_NAME', 'itineris-test-assignment');
 
 // Register The Auto Loader
