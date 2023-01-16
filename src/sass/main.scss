@@ -47,3 +47,31 @@ button {
 input[type="checkbox"] {
     accent-color: #2ccea0;
 }
+
+.font-gilory {
+    font-family: 'Gilory', sans-serif;
+}
+
+q {
+    position: relative;
+    &::before {
+        background-image: url(../images/quote-start.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -63px;
+        top: 7px;
+        width: 52px;
+    }
+
+    &::after {
+        background-image: url(../images/quote-end.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: -43px;
+        height: 31px;
+        right: 20px;
+        width: 35px;
+    }
+}

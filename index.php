@@ -8,6 +8,7 @@
     <body>
         <h1 class="text-xl text-center">WP Starter Theme</h1>
 
+        <?php get_template_part('template_parts/quote_with_image'); ?>
         <?php get_template_part('template_parts/courses_filter'); ?>
 
         <?php wp_footer(); ?>
